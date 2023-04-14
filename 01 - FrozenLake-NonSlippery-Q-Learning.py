@@ -14,7 +14,7 @@ num_action = env.action_space.n
 terminal_state = num_states - 1
 
 # Initialize action-values
-q_values = np.zeros((nb_states, nb_action))
+q_values = np.zeros((num_states, num_action))
 
 epsilon = 0.05
 discount_factor = 0.9
